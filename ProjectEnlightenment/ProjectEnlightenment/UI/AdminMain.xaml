@@ -1,0 +1,33 @@
+﻿<Window x:Class="ProjectEnlightenment.UI.AdminMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Home" Width="530" Height="428" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid Name="adminGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Resources/background.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="1" Margin="0,0,10,0"  Content="Create User" Height="30" FontSize="12" HorizontalAlignment="Right"  Name="userCreateButton" VerticalAlignment="Bottom" Width="95" Click="userCreateButton_Click" />
+        <Button Grid.Row="2" Margin="0,0,10,0" Content="Create Test" Height="30" FontSize="12" HorizontalAlignment="Right"  Name="testCreateButton" VerticalAlignment="Bottom" Width="95" Click="testCreateButton_Click" />
+        <Button Grid.Row="3" Margin="0,0,10,0" Content="Create Question" Height="30" FontSize="12" HorizontalAlignment="Right"  Name="questionCreateButton" VerticalAlignment="Bottom" Width="95" Click="questionCreateButton_Click" />
+        <Button Grid.Row="4" Margin="0,0,10,10" Content="Create Report" Height="30" FontSize="12" HorizontalAlignment="Right"  Name="reportCreateButton" VerticalAlignment="Bottom" Width="95" Click="reportCreateButton_Click" />
+        <Label  Grid.Row="0"  Content="Welcome," Height="30" HorizontalAlignment="Left" Name="welcomeLabel" VerticalAlignment="Center" Width="400" FontSize="18" />
+        <Button Grid.Row="0" Margin="0,0,10,0" Content="Sign Out" Height="30" FontSize="12" HorizontalAlignment="Right"  Name="signoutButton" VerticalAlignment="Bottom" Width="95" Click="signoutButton_Click" />
+
+        <Label Grid.Row="1"  Content="To create a new candidate or admin" FontSize="14" Height="30" HorizontalAlignment="Left"  />
+        <Label Grid.Row="2" Content="To create a new test" FontSize="14" Height="30"  HorizontalAlignment="Left" />
+        <Label Grid.Row="3"  Content="To create a new objective, descriptive or action-based question" FontSize="14" Height="30" />
+        <Label Grid.Row="4"  Content="To create a report of the progress of the candidate" FontSize="14" Height="30" />
+
+        <Separator Grid.Row="1"  Height="10" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Width="520" />
+        <Separator Grid.Row="2"  Height="10" HorizontalAlignment="Left" Margin="0,5,0,0"  VerticalAlignment="Top" Width="520" />
+        <Separator Grid.Row="3"  Height="10" HorizontalAlignment="Left" Margin="0,5,0,0"  VerticalAlignment="Top" Width="520" />
+        <Separator Grid.Row="4"  Height="10" HorizontalAlignment="Left" Margin="0,5,0,0"  VerticalAlignment="Top" Width="520" />
+    </Grid>
+</Window>

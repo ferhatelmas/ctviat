@@ -1,0 +1,52 @@
+﻿<Window x:Class="ProjectEnlightenment.UI.UserCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Name="window" Title="Create New User" Width="600" Height="800" 
+        ResizeMode="NoResize" WindowStyle="None">
+    <Grid Name="grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Resources/background.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"   />
+            <RowDefinition Height="300" />
+            <RowDefinition Height="*"   />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"   />
+            <ColumnDefinition Width="350" />
+            <ColumnDefinition Width="*"   />
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"  />
+                <RowDefinition Height="*"  />
+                <RowDefinition Height="*"  />
+                <RowDefinition Height="*"  />
+                <RowDefinition Height="*"  />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="50" />
+            </Grid.ColumnDefinitions>
+
+            <Label    Content="UserName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Margin="0,0,9,0" />
+            <TextBox  Name="userName"    Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Width="200" TextChanged="userName_TextChanged" Height="24"/>
+            <Label    Content="Password" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Margin="0,0,12,0" />
+            <Label    Content="RePassword" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" />
+            <PasswordBox  Name="password" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" PasswordChar="*" PasswordChanged="password_PasswordChanged" Height="24"/>
+            <PasswordBox Name="repassword" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" PasswordChar="*" PasswordChanged="repassword_PasswordChanged" Height="24"/>
+            <CheckBox Content="Admin user"  Name="isAdminCheckBox"  Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Left"  VerticalAlignment="Center" FontSize="16" Margin="9,0,0,0"/>
+            <Button   Content="Create User" Name="createUserButton" Grid.Row="4" Grid.Column="2"  HorizontalAlignment="Center"  VerticalAlignment="Center" Click="createUserButton_Click" Width="90" Height="30" FontSize="14"/>
+            <Button   Content="Main Menu" Name="backButton" Grid.Row="4" Grid.Column="3"  HorizontalAlignment="Center"  VerticalAlignment="Center" Width="90" Height="30" Click="backButton_Click" FontSize="14"/>
+            
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="ProjectEnlightenment.UI.Candidate1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Candidate1" Height="600" Width="800" WindowStyle="None" 
+        Loaded="Window_Loaded" KeyUp="Window_KeyUp" ResizeMode="NoResize">
+    <Grid Background="Chocolate">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Name="welcomeLabel" FontSize="30" VerticalAlignment="Center"/>
+            <Button Grid.Column="1" Name="signoutButton" Width="100" Height="50" Content="SIGNOUT" FontSize="18" Click="signoutButton_Click" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Separator Grid.Row="0" Grid.ColumnSpan="3" Foreground="Black" VerticalAlignment="Top" />
+            <CheckBox Grid.Row="1" Grid.Column="1" Name="dialogCheckBox" Content="Dialog" HorizontalAlignment="Left" FontSize="30"  Checked="dialogCheckBox_Checked" />
+            <CheckBox Grid.Row="2" Grid.Column="1" Name="editingCheckBox" Content="Editing" HorizontalAlignment="Left" FontSize="30" Checked="editingCheckBox_Checked" />
+        </Grid>
+    </Grid>
+</Window>

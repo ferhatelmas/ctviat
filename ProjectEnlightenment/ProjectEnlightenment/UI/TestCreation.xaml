@@ -1,0 +1,81 @@
+﻿<Window x:Class="ProjectEnlightenment.UI.TestCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Test" Height="600" Width="800" 
+        Loaded="Window_Loaded" ResizeMode="NoResize" WindowStyle="None" >
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Resources/background.jpg" Stretch="Fill" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="Test Properties">
+                <WrapPanel>
+                        <ComboBox Name="questionTypes" Width="150" Margin="0,6,0,0" SelectionChanged="questionTypes_SelectionChanged">
+                        <ComboBoxItem Content="Select Question Type"/>
+                        <ComboBoxItem Content="Objective Questions"/>
+                        <ComboBoxItem Content="Descriptive Questions"/>
+                        <ComboBoxItem Content="Action-based Questions"/>
+                    </ComboBox>
+                        <ComboBox Name="questionSubjects" Width="150" Margin="2,6,0,0" SelectionChanged="questionSubjects_SelectionChanged">
+                        <ComboBoxItem Content="Select Question Subject"/>
+                        <ComboBoxItem Content="Dialog"/>
+                        <ComboBoxItem Content="Editing"/>
+                    </ComboBox>
+                        <ComboBox Name="testSubject" Width="150" Margin="4,6,0,0" SelectionChanged="testSubject_SelectionChanged">
+                        <ComboBoxItem Content="Select Test Subject"/>
+                        <ComboBoxItem Content="Dialog"/>
+                        <ComboBoxItem Content="Editing"/>
+                    </ComboBox>
+                    </WrapPanel>
+            </GroupBox>
+        </Grid>
+        <GroupBox Grid.Row="1" Header="Questions of Test">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="250*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150*"/>
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="150*"/>
+                </Grid.ColumnDefinitions>
+                
+                <ListView Grid.Column="0" Name="allQuestions"/>
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="1" Name="addQuestionbutton" Content="--&gt;" Click="addQuestionbutton_Click" />
+                    <Button Grid.Row="3" Name="subtractQuestionButton" Content="&lt;--" Click="subtractQuestionButton_Click" />
+                </Grid>
+                <ListView Grid.Column="4" Name="selectedQuestions"/>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="95"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="95"/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Name="createTestButton" Content="Create Test" FontSize="12" Height="30" Click="createTestButton_Click" />
+            <Button Grid.Column="3" Name="backButton" Content="Main Menu" FontSize="12" Height="30" Click="backButton_Click" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProjectEnlightenment.UI.Candidate6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Candidate6" Height="300" Width="300" WindowStyle="None" 
+        Loaded="Window_Loaded" KeyUp="Window_KeyUp" ResizeMode="NoResize">
+    <Grid Background="Chocolate">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="1" Name="practiceButton" Width="110" Height="60" Content="PRACTICE" FontSize="18" Click="practiceButton_Click" />
+        <Button Grid.Row="2" Name="signoutButton" Width="110" Height="60" Content="SIGNOUT" FontSize="18" Click="signoutButton_Click" />
+    </Grid>
+</Window>
