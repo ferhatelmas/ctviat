@@ -1,0 +1,25 @@
+From: Kapil Vaswani 
+Sent: Çar 06.10.2010 20:44
+To: Eray Saltik [mailto:eraysaltik@gmail.com]
+Subject: Score Project
+
+Hi Eray,
+I am fine with whatever model you think works for you. Obviously, I will be happy to see you try XP for a project like this. As you know, adopting XP will require significantly more effort on your team’s part. Also, I will be happy to keep in regular touch with your team.
+
+Thanks
+Kapil
+
+
+From: Eray Saltik [mailto:eraysaltik@gmail.com] 
+Sent: Wednesday, October 06, 2010 1:19 PM
+To: Kapil Vaswani
+Subject: Score Project
+
+Dear Kapil Vaswani
+
+It was a long time since we last spoke. This week our university opened and we immediately started our Score Project again. At this semester we will firstly create project plan for development, then we will start to implement our application. We will finish the whole project plan next week and send you for your feedback. We are very excited for our application which is a social value such as helping handicapped people. We hope that we can make video/tele conferences with you during the process because your feedbacks are really important for us.
+
+Lastly, I have a little question. In the project plan we are supposed to write which type of development lifecycle model we will use; Waterfall, Spiral, Agile, Extreme(XP), Cowboy. Is there any specific model you want us to use? We think XP as our model.
+
+Sincerely,
+Eray Saltik – Project Enlightenment Team, Score Project / Bogazici University Computer Engineering

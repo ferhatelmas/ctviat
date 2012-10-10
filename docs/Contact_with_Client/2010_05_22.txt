@@ -1,0 +1,34 @@
+From: Kapil Vaswani [mailto:kapilv@microsoft.com] 
+Sent: Saturday, May 22, 2010 2:46 PM
+To: Eray Saltik
+Subject: RE: Score Project
+
+
+Hi Eray,
+
+It’s great to hear from you. I am sure this project will be a good learning experience for all of us and result in a tool that will help Enable India. 
+
+About your question, I think we can initially start designing the system by considering just one application, say Word. We can then define a small number of primitive operations such as 
+•	Checking for the presence/absence of a new word document, 
+•	Comparing two word documents (a golden document provided by the person designing the test and one generated during the examination)
+
+The primitive for comparing documents should ideally be parameterized by the feature(s) of the document that should be compared. For example, we might support comparison of features such as contents, fonts, number of lines. The tool should let the test designer select one or more of these features for every question. 
+
+I will double check with the people at Enable India and get back to you with more details.
+
+Thanks
+Kapil
+
+From: Eray Saltik [mailto:eraysaltik@gmail.com] 
+Sent: 21 May 2010 22:34
+To: Kapil Vaswani
+Subject: Score Project
+
+Dear Kapil Vaswani,
+
+My name is Eray Saltik. I’m from Computer Engineering Department of Bogazici University in Turkey. Me and my friends have registered the Score Contest as our Software Engineering course(CMPE 352) project. We are assigned to the “Computer Training for Visually Impaired Automation Tool” project which you are the stakeholder of. We hope that we would make a good together.
+
+Before preparing the RAD Document of the project we get confused about a point in the requirements. As far as we are concerned we should test the user’s answers in the program. The questions may be about Windows Explorer, Word, Excel or any other computer applications such as internet browsers. To test the answer of the user, our program should contain the required control mechanisms. For example in order to test whether the user creates a directory in a given path, we should also write the code of directory check method in the development of program or in order to test whether the user used the correct font in ‘the Word’, we should write the code of font check method, maybe through using Word API. From the requirements document we could not understand what the restriction of these questions with ‘extra-code’ answers is? Which applications should our program contain? Only Windows Explorer, Word and Excel? And which methods of these applications should we think about? Only creating, editing and saving?
+
+Thanks in advance. We look forward to hearing from you.
+Eray Saltik

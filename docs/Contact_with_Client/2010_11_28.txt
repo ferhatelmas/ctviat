@@ -1,0 +1,66 @@
+From: Matteo G. Rossi [mailto:rossi@elet.polimi.it]
+Sent: Paz 28.11.2010 12:20
+To: Eray Saltik
+Cc: Michal Young; Kapil Vaswani; score@fmeurope.org
+Subject: SCORE contest participation, and the Formal Methods prize
+
+Dear Eray Saltik,
+
+thanks for the information, that's all we need at the moment.
+
+Regards,
+Matteo
+
+On 2010-11-20 17:17, Eray Saltik wrote:
+> Dear Matteo and Michal,
+>
+> Thank you for your e-mail. We couldn't reply quickly since we have many midterms on those days. As you may remember we signed up the contest for our software development course in Bogazici University, Istanbul. That means that we are going to finish everything in real software development methodologies and rules. Since the dates of the contest and our course sylabus appropriate to each other we will also submit our project to contest which has a deadline of 15 January 2011, I think. Unfortunately we will not compete for the special prize on formal methods because we might be very busy with our other courses and projects.
+>
+> We thank you for your great wishes to us. Should you need further information, please don't hesitate to ask.
+> Have a nice day,
+>
+> Eray Saltik,
+> Project Enlightenment - SCORE Contest 2010
+>
+>
+>
+> -----Original Message-----
+> From: Matteo G. Rossi [mailto:rossi@elet.polimi.it]
+> Sent: Thursday, November 04, 2010 4:21 PM
+> To: Eray Saltik
+> Cc: Michal Young; Kapil Vaswani; score@fmeurope.org
+> Subject: SCORE contest participation, and the Formal Methods prize
+>
+> Dear Eray Saltik,
+>
+>
+> Thank you again for enrolling a team in the SCORE contest.   We would
+> like to check in with all teams, to get an idea of how you are 
+> progressing, whether you still plan to submit your project to the 
+> contest, and whether you will also be competing for the special prize on
+> formal methods (more on that below).   Can you drop us a quick note
+> (just a few sentences is fine) letting us know your plans (we know you 
+> have registered just a few days ago, so if you have no news to report 
+> we understand perfectly)?  And of course we also welcome any thoughts 
+> you may have about what has gone well or not so well, and how we can 
+> continue to improve the SCORE contest series.
+>
+> About the special formal methods prize:   As you may know, the prize for
+> the best use of formal methods is sponsored by Formal Methods Europe. 
+> It does not restrict which formal methods may be employed by a team, 
+> and it is not tied to any particular project, so there is a wide range 
+> of ways to compete for this prize.  Any team that chooses to use 
+> formal methods may compete in addition to being considered for the 
+> overall prizes.  On the other hand, of course, an award for best 
+> application of formal methods will be made only if there are one or more contest entries that
+> do make very good use of formal methods.   It would be helpful to us to
+> know how many teams wish to be considered for this award.   Please let
+> us know if you are planning or considering competing in the formal
+> methods category.    We would also be happy to discuss it further with
+> any team who may be considering whether or not to compete in this category.
+>
+> We hope your SCORE project is challenging and rewarding, and we look 
+> forward to seeing reports of your excellent work soon.
+>
+> Best wishes,
+> Matteo and Michal
